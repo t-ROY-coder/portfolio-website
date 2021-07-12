@@ -24,12 +24,22 @@ const Navbar = () => {
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#">
-                  Home
+                  Me
                 </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Link
+                  Tech
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  XP
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <ion-icon name="mail"></ion-icon>
                 </a>
               </li>
             </ul>
