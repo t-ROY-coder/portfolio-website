@@ -1,8 +1,14 @@
-import "./App.css";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./App.css";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return <h2>Hello World!</h2>;
+  return (
+    <>
+      <Navbar />
+      <h2>Hello World!</h2>
+    </>
+  );
 }
 
 export default App;
