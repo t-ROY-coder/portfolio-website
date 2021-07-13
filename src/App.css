@@ -2,6 +2,7 @@
 
 body {
   font-family: "Lato" sans-serif;
+  background-color: #99aab5;
 }
 
 /***** NAVBAR *****/
@@ -26,4 +27,38 @@ nav ul li ion-icon {
   vertical-align: middle;
   padding-bottom: 0.188rem;
   /* margin-bottom: -3px; */
+}
+
+/***** SECTIONS *****/
+.card-header {
+  background-color: #7289da;
+  color: white;
+}
+
+/***** HEADER *****/
+.header .card {
+  margin-top: 1.5rem;
+  border: none;
+}
+
+.profile-pic {
+  text-align: center;
+}
+
+.myPic {
+  width: 15rem;
+  border-radius: 50%;
+  margin-left: 0 auto;
+}
+
+.header-body {
+  height: 100%;
+}
+
+.header-text {
+  margin: 3rem 0;
+}
+
+.header .card-subtitle {
+  margin-top: 1rem;
 }
