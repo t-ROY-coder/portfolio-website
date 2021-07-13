@@ -145,3 +145,8 @@ h3 {
 .header .card-subtitle {
   margin-top: 1rem;
 }
+
+/***** SKILLS *****/
+.skills-container .section-text {
+  text-align: left;
+}
