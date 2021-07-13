@@ -6,7 +6,7 @@ function Skills() {
     <>
       <div className="container skills-container">
         <div class="card">
-          <div class="card-header">Skills</div>
+          <div class="card-header">Technical Skills</div>
           <div class="card-body section-container">
             <div className="row">
               <div className="col-lg-3">

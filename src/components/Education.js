@@ -9,7 +9,9 @@ function Education() {
           <div class="card-body section-container">
             <div className="row">
               <h3 class="card-title section-title">
-                Bachelor's <ion-icon name="ribbon-outline"></ion-icon>
+                <ion-icon name="ribbon-outline"></ion-icon>
+                <br />
+                Bachelor's
               </h3>
               <div className="section-subtitle">
                 <h1>National Institute of Technology, Warangal</h1>
