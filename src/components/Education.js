@@ -20,8 +20,9 @@ function Education() {
                   Bachelor of Technology
                 </h6>
                 <h5 class="card-subtitle mb-2 text-muted">
-                  Electronics and Communications Engineering
+                  Electronics and Communication Engineering
                 </h5>
+                <p>7.49 CGPA</p>
               </div>
             </div>
           </div>

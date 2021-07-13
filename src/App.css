@@ -120,6 +120,10 @@ h3 {
 
 /***** HEADER *****/
 
+.header {
+  margin-top: 7rem;
+}
+
 .profile-pic {
   text-align: center;
 }

@@ -19,6 +19,9 @@ function Footer() {
             >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
+            <a>
+              <ion-icon name="mail"></ion-icon>
+            </a>
           </div>
         </div>
       </footer>
