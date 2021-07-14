@@ -6,7 +6,9 @@ function Skills() {
     <>
       <div className="container skills-container">
         <div class="card">
-          <div class="card-header">Technical Skills</div>
+          <div class="card-header">
+            <ion-icon name="construct"></ion-icon>&emsp;Technical Skills...
+          </div>
           <div class="card-body section-container">
             <div className="row">
               <div className="col-lg-3">

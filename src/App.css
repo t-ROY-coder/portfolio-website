@@ -167,3 +167,10 @@ h3 {
 .edu-section .carousel-indicators {
   margin-bottom: -2rem;
 }
+
+/***** PROJECTS *****/
+.card .card {
+  margin-top: 1rem;
+  min-height: 30vh;
+  /* border: solid black; */
+}

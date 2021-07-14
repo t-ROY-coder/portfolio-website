@@ -8,7 +8,9 @@ function Header() {
       <section className="header">
         <div className="container">
           <div class="card">
-            <div class="card-header">About Me</div>
+            <div class="card-header">
+              <ion-icon name="person"></ion-icon>&emsp;About Me...
+            </div>
             <div class="card-body">
               <div className="row">
                 <div className="profile-pic col-lg-4">
