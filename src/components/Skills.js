@@ -1,5 +1,6 @@
 import React from "react";
 import { SkillsData } from "../assets/SkillsData";
+import StarRatings from "react-star-ratings";
 
 function Skills() {
   return (
@@ -7,7 +8,7 @@ function Skills() {
       <div className="container skills-section">
         <div class="card">
           <div class="card-header">
-            <ion-icon name="construct"></ion-icon>&emsp;Technical Skills...
+            <ion-icon name="construct"></ion-icon>&emsp;Technical Skills
           </div>
           <div class="card-body section-container">
             <div className="row">
@@ -22,7 +23,20 @@ function Skills() {
                     {SkillsData.languages.map((e, i) => {
                       return (
                         <li key={i}>
-                          <p>{e}</p>
+                          <p>
+                            {e}
+                            <div className="rating">
+                              <StarRatings
+                                rating={2.5}
+                                starRatedColor="#7289da"
+                                starEmptyColor="#aaa"
+                                numberOfStars={5}
+                                name="rating"
+                                starDimension="1.5rem"
+                                starSpacing="0.5rem"
+                              />
+                            </div>
+                          </p>
                         </li>
                       );
                     })}

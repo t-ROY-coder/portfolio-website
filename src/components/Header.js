@@ -9,7 +9,7 @@ function Header() {
         <div className="container">
           <div class="card">
             <div class="card-header">
-              <ion-icon name="person"></ion-icon>&emsp;About Me...
+              <ion-icon name="person"></ion-icon>&emsp;About Me
             </div>
             <div class="card-body">
               <div className="row">

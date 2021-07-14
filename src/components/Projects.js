@@ -9,7 +9,7 @@ function Projects() {
       <div className="container proj-container">
         <div class="card">
           <div class="card-header">
-            <ion-icon name="git-branch"></ion-icon>&emsp;Some of my Work...
+            <ion-icon name="git-branch"></ion-icon>&emsp;Projects
           </div>
           <div class="card-body section-container">
             <div className="row thumbs">

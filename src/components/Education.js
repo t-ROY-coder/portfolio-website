@@ -7,7 +7,7 @@ function Education() {
       <div className="container edu-section">
         <div class="card">
           <div class="card-header">
-            <ion-icon name="school"></ion-icon>&emsp;Academic Background...
+            <ion-icon name="school"></ion-icon>&emsp;Academic Background
           </div>
           <div class="card-body section-container">
             <div
