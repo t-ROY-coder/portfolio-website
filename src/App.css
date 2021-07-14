@@ -8,6 +8,16 @@ body {
   background-size: cover;
 }
 
+.btn-primary {
+  border: none;
+  background-color: #7289da;
+  margin-top: 1rem;
+}
+
+.btn-primary:hover {
+  background-color: #888;
+}
+
 footer {
   margin-top: 5rem;
   min-height: 10rem;
@@ -155,8 +165,9 @@ h3 {
 }
 
 /***** SKILLS *****/
-.skills-container .section-text {
+.skills-section .section-text {
   text-align: left;
+  font-size: 120%;
 }
 
 /***** EDUCATION *****/

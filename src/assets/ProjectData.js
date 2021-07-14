@@ -58,7 +58,7 @@ export const ProjectData = [
   {
     title: "More Projects...",
     description: "Check out my Github page for more projects.",
-    time: "",
+    time: <ion-icon name="logo-github"></ion-icon>,
     link: "https://github.com/t-ROY-coder?tab=repositories",
   },
 ];

@@ -4,7 +4,7 @@ import { SkillsData } from "../assets/SkillsData";
 function Skills() {
   return (
     <>
-      <div className="container skills-container">
+      <div className="container skills-section">
         <div class="card">
           <div class="card-header">
             <ion-icon name="construct"></ion-icon>&emsp;Technical Skills...
