@@ -5,7 +5,7 @@ function Education() {
     <>
       <div className="container">
         <div class="card">
-          <div class="card-header">Education</div>
+          <div class="card-header">Academic Background</div>
           <div class="card-body section-container">
             <div className="row">
               <h3 class="card-title section-title">
