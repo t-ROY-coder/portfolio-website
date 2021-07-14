@@ -158,3 +158,12 @@ h3 {
 .skills-container .section-text {
   text-align: left;
 }
+
+/***** EDUCATION *****/
+.edu-section .card {
+  padding-bottom: 3rem;
+}
+
+.edu-section .carousel-indicators {
+  margin-bottom: -2rem;
+}

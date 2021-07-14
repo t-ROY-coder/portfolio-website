@@ -19,7 +19,7 @@ function Skills() {
                   <ul>
                     {SkillsData.languages.map((e, i) => {
                       return (
-                        <li>
+                        <li key={i}>
                           <p>{e}</p>
                         </li>
                       );
