@@ -200,7 +200,7 @@ h3 {
 }
 
 .edu-section .carousel-indicators {
-  margin-bottom: -2rem;
+  margin-bottom: -2.5rem;
 }
 
 /***** PROJECTS *****/
@@ -212,4 +212,13 @@ h3 {
 
 .proj-section button {
   border-radius: 50ch;
+}
+
+/***** EXPERIENCE *****/
+.exp-section .row {
+  margin-bottom: 2rem;
+}
+
+.exp-section .carousel-indicators {
+  margin-bottom: -0.25rem;
 }

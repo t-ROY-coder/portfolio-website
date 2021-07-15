@@ -1,6 +1,7 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import Education from "./components/Education";
+import Experience from "./components/Experience";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <Education />
       <Skills />
       <Projects />
+      <Experience />
       <Footer />
     </>
   );
