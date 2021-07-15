@@ -1,5 +1,5 @@
 import React from "react";
-import me from "../assets/me.JPG";
+import me from "../assets/img/me.JPG";
 import Typical from "react-typical";
 
 function Header() {
