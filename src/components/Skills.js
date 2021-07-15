@@ -50,20 +50,7 @@ function Skills() {
                       }
                       // onMouseLeave={() => setIsHovering(null)}
                     >
-                      <p>
-                        {item.name}
-                        <div className="rating" hidden>
-                          <StarRatings
-                            rating={item.rating}
-                            starRatedColor="#7289da"
-                            starEmptyColor="#aaa"
-                            numberOfStars={5}
-                            name="rating"
-                            starDimension="1.5rem"
-                            starSpacing="0.5rem"
-                          />
-                        </div>
-                      </p>
+                      <p>{item.name}</p>
                     </li>
                   );
                 }
