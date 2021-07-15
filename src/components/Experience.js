@@ -3,7 +3,7 @@ import React from "react";
 function Experience() {
   return (
     <>
-      <div className="container exp-section">
+      <div className="container exp-section" id="exp">
         <div class="card">
           <div class="card-header">
             <ion-icon name="briefcase"></ion-icon>&emsp;Experience

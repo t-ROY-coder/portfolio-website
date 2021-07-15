@@ -4,7 +4,7 @@ import { AcadList } from "../assets/AcadList";
 function Education() {
   return (
     <>
-      <div className="container edu-section">
+      <div className="container edu-section" id="edu">
         <div class="card">
           <div class="card-header">
             <ion-icon name="school"></ion-icon>&emsp;Academic Background
