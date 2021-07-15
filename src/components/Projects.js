@@ -6,7 +6,7 @@ function Projects() {
 
   return (
     <>
-      <div className="container proj-container">
+      <div className="container proj-section">
         <div class="card">
           <div class="card-header">
             <ion-icon name="git-branch"></ion-icon>&emsp;Projects
