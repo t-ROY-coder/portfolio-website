@@ -4,7 +4,7 @@ import logo from "../assets/img/ROY_logo.png";
 const Navbar = () => {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img className="logo" src={logo} alt="logo" />

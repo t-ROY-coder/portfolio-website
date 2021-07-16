@@ -4,7 +4,7 @@ import logo from "../assets/img/ROY_logo.png";
 function Footer() {
   return (
     <>
-      <footer class="navbar-expand-lg navbar-dark bg-dark">
+      <footer class="navbar-expand-lg navbar-custom">
         <div className="footer-content">
           <img className="logo" src={logo} alt="logo" />
           <div className="footer-text section-container">

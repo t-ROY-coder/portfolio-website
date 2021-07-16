@@ -19,11 +19,9 @@ function Header() {
                 <div className="col-lg-8">
                   <div className="header-body">
                     <div className="header-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Hello World!
-                      </h6>
+                      <h6 class="card-subtitle mb-2">Hello World!</h6>
                       <h1 class="card-title">I am Tanumon Roy</h1>
-                      <h5 class="card-subtitle mb-2 text-muted">
+                      <h5 class="card-subtitle mb-2">
                         <Typical
                           steps={[
                             "And I'm a software developer",

@@ -20,8 +20,8 @@ function Experience() {
                 <p>Aug 2021 - Present</p>
               </div>
               <div className="section-text">
-                <h6 class="card-subtitle mb-2 text-muted">Job Description</h6>
-                <h5 class="card-subtitle mb-2 text-muted container">
+                <h6 class="card-subtitle mb-2">Job Description</h6>
+                <h5 class="card-subtitle mb-2 container">
                   Work as part of the Middleware /Webservices team to support
                   the functional and Automation testing in Agile model. And be
                   responsible for driving the software development process
@@ -40,8 +40,8 @@ function Experience() {
                 <p>July 2020 - Aug 2020</p>
               </div>
               <div className="section-text">
-                <h6 class="card-subtitle mb-2 text-muted">Job Description</h6>
-                <h5 class="card-subtitle mb-2 text-muted container">
+                <h6 class="card-subtitle mb-2">Job Description</h6>
+                <h5 class="card-subtitle mb-2 container">
                   Designed and created an interface to create, configure and
                   handle custom network topologies
                 </h5>
@@ -87,10 +87,8 @@ function Experience() {
                       <p>Sep 2020 - June 2021</p>
                     </div>
                     <div className="section-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Organisation
-                      </h6>
-                      <h5 class="card-subtitle mb-2 text-muted">
+                      <h6 class="card-subtitle mb-2">Organisation</h6>
+                      <h5 class="card-subtitle mb-2">
                         Big Data, Analytics and Consultancy Cell, NITW
                       </h5>
                     </div>
@@ -103,12 +101,8 @@ function Experience() {
                       <p>Jan 2020</p>
                     </div>
                     <div className="section-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Organisation
-                      </h6>
-                      <h5 class="card-subtitle mb-2 text-muted">
-                        Robotics Club, NITW
-                      </h5>
+                      <h6 class="card-subtitle mb-2">Organisation</h6>
+                      <h5 class="card-subtitle mb-2">Robotics Club, NITW</h5>
                     </div>
                   </div>
                 </div>
@@ -119,12 +113,8 @@ function Experience() {
                       <p>Sep 2019 - June 2020</p>
                     </div>
                     <div className="section-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Organisation
-                      </h6>
-                      <h5 class="card-subtitle mb-2 text-muted">
-                        Robotics Club, NITW
-                      </h5>
+                      <h6 class="card-subtitle mb-2">Organisation</h6>
+                      <h5 class="card-subtitle mb-2">Robotics Club, NITW</h5>
                     </div>
                   </div>
                 </div>

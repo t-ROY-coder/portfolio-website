@@ -46,9 +46,7 @@ function Projects() {
                         <div className="card-body">
                           <h3 class="card-title section-title">{e.title}</h3>
                           <p>{e.time}</p>
-                          <h6 class="card-subtitle mb-2 text-muted">
-                            {e.description}
-                          </h6>
+                          <h6 class="card-subtitle mb-2">{e.description}</h6>
                         </div>
                       </div>
                     </div>

@@ -50,12 +50,8 @@ function Education() {
                       <p>{AcadList[0].time}</p>
                     </div>
                     <div className="section-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        {AcadList[0].degree}
-                      </h6>
-                      <h5 class="card-subtitle mb-2 text-muted">
-                        {AcadList[0].major}
-                      </h5>
+                      <h6 class="card-subtitle mb-2">{AcadList[0].degree}</h6>
+                      <h5 class="card-subtitle mb-2">{AcadList[0].major}</h5>
                     </div>
                   </div>
                 </div>
@@ -71,12 +67,8 @@ function Education() {
                       <p>{AcadList[1].time}</p>
                     </div>
                     <div className="section-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        {AcadList[1].degree}
-                      </h6>
-                      <h5 class="card-subtitle mb-2 text-muted">
-                        {AcadList[1].major}
-                      </h5>
+                      <h6 class="card-subtitle mb-2">{AcadList[1].degree}</h6>
+                      <h5 class="card-subtitle mb-2">{AcadList[1].major}</h5>
                     </div>
                   </div>
                 </div>
@@ -92,12 +84,8 @@ function Education() {
                       <p>{AcadList[2].time}</p>
                     </div>
                     <div className="section-text">
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        {AcadList[2].degree}
-                      </h6>
-                      <h5 class="card-subtitle mb-2 text-muted">
-                        {AcadList[2].major}
-                      </h5>
+                      <h6 class="card-subtitle mb-2">{AcadList[2].degree}</h6>
+                      <h5 class="card-subtitle mb-2">{AcadList[2].major}</h5>
                     </div>
                   </div>
                 </div>

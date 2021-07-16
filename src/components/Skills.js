@@ -31,7 +31,7 @@ function Skills() {
                           <StarRatings
                             rating={item.rating}
                             starRatedColor="#7289da"
-                            starEmptyColor="#aaa"
+                            starEmptyColor="#36393e"
                             numberOfStars={5}
                             name="rating"
                             starDimension="1.5rem"
