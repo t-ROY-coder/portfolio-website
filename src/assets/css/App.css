@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap");
 
 :root {
-  --dark-bg-color: #282b30;
-  --dark-section-color: #36393e;
-  --dark-mute-color: #424549;
-  --dark-mute-highlight-color: #99aab5;
-  --dark-focus-color: #fff;
+  --bg-color: #282b30;
+  --section-color: #36393e;
+  --mute-color: #424549;
+  --mute-highlight-color: #99aab5;
+  --text-color: #fff;
   --highlight-color: #7289da;
 }
 
 body {
   font-family: "Lato" sans-serif;
-  background-color: var(--dark-bg-color);
+  background-color: var(--bg-color);
   /* background-image: url("./assets/img/bg3_1600x900.jpg"); */
   background-attachment: fixed;
   background-size: cover;
-  color: var(--dark-focus-color);
+  color: var(--text-color);
 }
 
 .btn-primary {
@@ -25,7 +25,7 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: var(--dark-mute-highlight-color);
+  background-color: var(--mute-highlight-color);
 }
 
 ul {
@@ -35,15 +35,15 @@ ul {
 .form-control {
   color: var(--dark-focus-color);
   border: none;
-  background-color: var(--dark-mute-color);
+  background-color: var(--mute-color);
 }
 
 .navbar-custom {
-  background-color: var(--dark-bg-color);
+  background-color: var(--bg-color);
 }
 
 .navbar-custom a {
-  color: var(--dark-mute-highlight-color);
+  color: var(--mute-highlight-color);
 }
 
 .navbar-custom a:hover {
@@ -51,7 +51,24 @@ ul {
 }
 
 .navbar-custom a:focus {
-  color: var(--dark-mute-highlight-color);
+  color: var(--mute-highlight-color);
+}
+
+.carousel-control-prev ion-icon,
+.carousel-control-next ion-icon,
+.navbar-toggler ion-icon {
+  font-size: 130%;
+  vertical-align: middle;
+  padding-bottom: 0.188rem;
+  color: var(--mute-highlight-color);
+  /* margin-bottom: -3px; */
+}
+
+ion-icon {
+  font-size: 125%;
+  vertical-align: middle;
+  padding-bottom: 0.188rem;
+  /* margin-bottom: -3px; */
 }
 
 /***** FOOTER *****/
@@ -59,9 +76,9 @@ ul {
 footer {
   margin-top: 5rem;
   min-height: 10rem;
-  color: var(--dark-mute-highlight-color);
+  color: var(--mute-highlight-color);
   text-align: center;
-  border-top: solid 1px var(--dark-mute-highlight-color);
+  border-top: solid 1px var(--mute-highlight-color);
 }
 
 footer .logo {
@@ -69,7 +86,7 @@ footer .logo {
 }
 
 footer a {
-  color: var(--dark-mute-color);
+  color: var(--mute-color);
   margin: 1rem;
 }
 
@@ -95,12 +112,12 @@ footer a:hover {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: var(--dark-bg-color);
+  background: var(--bg-color);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: var(--dark-mute-color);
+  background: var(--mute-color);
   border-radius: 0.25rem;
 }
 
@@ -131,13 +148,6 @@ nav ul li {
 
 /***** SECTIONS *****/
 
-ion-icon {
-  font-size: 125%;
-  vertical-align: middle;
-  padding-bottom: 0.188rem;
-  /* margin-bottom: -3px; */
-}
-
 h1,
 h3 {
   font-weight: 300;
@@ -145,7 +155,7 @@ h3 {
 
 h5,
 h6 {
-  color: var(--dark-mute-highlight-color);
+  color: var(--mute-highlight-color);
 }
 
 .section-container {
@@ -173,13 +183,13 @@ h6 {
 .card {
   margin-top: 2.5rem;
   border: none;
-  background-color: var(--dark-section-color);
+  background-color: var(--section-color);
   /* backdrop-filter: blur(10px); */
 }
 
 .card-header {
   background-color: var(--highlight-color);
-  color: var(--dark-focus-color);
+  color: white;
   font-size: 125%;
   font-weight: 300;
 }
@@ -232,7 +242,7 @@ h6 {
 
 .skills-section li:hover {
   list-style-type: disc;
-  background-color: var(--dark-mute-color);
+  background-color: var(--mute-color);
 }
 
 .rating {

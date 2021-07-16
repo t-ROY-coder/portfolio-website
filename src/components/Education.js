@@ -96,10 +96,7 @@ function Education() {
                 data-bs-target="#eduCarousel"
                 data-bs-slide="prev"
               >
-                <span
-                  class="carousel-control-prev-icon"
-                  aria-hidden="true"
-                ></span>
+                <ion-icon name="chevron-back-outline"></ion-icon>
                 <span class="visually-hidden">Previous</span>
               </button>
               <button
@@ -108,10 +105,7 @@ function Education() {
                 data-bs-target="#eduCarousel"
                 data-bs-slide="next"
               >
-                <span
-                  class="carousel-control-next-icon"
-                  aria-hidden="true"
-                ></span>
+                <ion-icon name="chevron-forward-outline"></ion-icon>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
