@@ -22,6 +22,8 @@ ul {
   list-style-type: circle;
 }
 
+/***** FOOTER *****/
+
 footer {
   margin-top: 5rem;
   min-height: 10rem;
@@ -30,7 +32,7 @@ footer {
 }
 
 footer .logo {
-  margin-left: -0.3125rem;
+  margin-left: -0.25rem;
 }
 
 footer a {
@@ -52,34 +54,37 @@ footer a:hover {
 }
 
 /***** SCROLL-BAR *****/
+
 /* width */
 ::-webkit-scrollbar {
-  width: 0.625rem;
+  width: 0.5rem;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #99aab5;
+  background: #888;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #888;
-  border-radius: 0.3125rem;
+  background: #7289da;
+  border-radius: 0.25rem;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: #212529;
 }
 
 /***** NAVBAR *****/
+
 .logo {
   width: 3.125rem;
   margin-left: 1.5rem;
 }
 
 /***** NAV LINKS *****/
+
 nav a.nav-link {
   letter-spacing: 0.0375rem;
   cursor: pointer;
@@ -88,6 +93,7 @@ nav a.nav-link {
 nav ul li {
   text-transform: uppercase;
   margin-right: 1.5rem;
+  text-align: center;
 }
 
 /***** SECTIONS *****/
@@ -169,6 +175,7 @@ h3 {
 }
 
 /***** SKILLS *****/
+
 .skills-section .section-text {
   text-align: left;
   font-size: 120%;
@@ -195,6 +202,7 @@ h3 {
 }
 
 /***** EDUCATION *****/
+
 .edu-section .card {
   padding-bottom: 3rem;
 }
@@ -204,10 +212,10 @@ h3 {
 }
 
 /***** PROJECTS *****/
+
 .card .card {
   margin-top: 1rem;
   min-height: 30vh;
-  /* border: solid black; */
 }
 
 .proj-section button {
@@ -215,10 +223,23 @@ h3 {
 }
 
 /***** EXPERIENCE *****/
+
 .exp-section .row {
   margin-bottom: 2rem;
 }
 
 .exp-section .carousel-indicators {
   margin-bottom: -0.25rem;
+}
+
+/***** CONTACT *****/
+
+.contact-section p {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.contact-section button {
+  border-radius: 50ch;
+  margin-bottom: 1.5rem;
 }

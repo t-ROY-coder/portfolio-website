@@ -1,5 +1,6 @@
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import Contact from "./components/Contact";
 import Education from "./components/Education";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Projects />
       <Experience />
+      <Contact />
       <Footer />
     </>
   );

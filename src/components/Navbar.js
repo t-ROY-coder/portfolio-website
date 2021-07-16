@@ -38,7 +38,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="#contact">
                   <ion-icon name="mail"></ion-icon>
                 </a>
               </li>
