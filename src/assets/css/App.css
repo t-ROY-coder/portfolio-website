@@ -50,6 +50,10 @@ ul {
   color: var(--highlight-color);
 }
 
+.navbar-custom a:focus {
+  color: var(--dark-mute-highlight-color);
+}
+
 /***** FOOTER *****/
 
 footer {

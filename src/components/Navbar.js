@@ -42,6 +42,11 @@ const Navbar = () => {
                   <ion-icon name="mail"></ion-icon>
                 </a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link">
+                  <ion-icon name="moon"></ion-icon>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
