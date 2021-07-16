@@ -4,8 +4,11 @@ import logo from "../assets/img/ROY_logo.png";
 
 const Navbar = () => {
   const [DarkMode, setDarkMode] = useState(true);
-  const handleDarkMode = () => {
+  const [ModeIcon, setModeIcon] = useState("sunny");
+
+  const handleDarkMode = (e) => {
     setDarkMode(!DarkMode);
+    setModeIcon(DarkMode ? "sunny" : "moon");
     changeColors();
   };
   const changeColors = () => {
@@ -77,7 +80,7 @@ const Navbar = () => {
               </li>
               <li class="nav-item">
                 <a class="nav-link" onClick={handleDarkMode}>
-                  <ion-icon name="moon"></ion-icon>
+                  <ion-icon name={ModeIcon}></ion-icon>
                 </a>
               </li>
             </ul>
