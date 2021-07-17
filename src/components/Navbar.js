@@ -1,17 +1,24 @@
 import React, { useState } from "react";
 import { Colors } from "../assets/Colors";
 import logo from "../assets/img/ROY_logo.png";
+import darkLogo from "../assets/img/ROY_logo_dark.png";
 
 const Navbar = () => {
   const [DarkMode, setDarkMode] = useState(true);
   const [ModeIcon, setModeIcon] = useState("sunny");
+  const [ModeLogo, setModeLogo] = useState(logo);
 
   const handleDarkMode = (e) => {
     setDarkMode(!DarkMode);
     setModeIcon(DarkMode ? "sunny" : "moon");
+    setModeLogo(DarkMode ? logo : darkLogo);
     changeColors();
   };
   const changeColors = () => {
+    document.documentElement.style.setProperty(
+      "--dark-mode",
+      DarkMode ? "on" : "off"
+    );
     document.documentElement.style.setProperty(
       "--bg-color",
       DarkMode ? Colors.darkBgColor : Colors.lightBgColor
@@ -43,7 +50,7 @@ const Navbar = () => {
       <nav class="navbar navbar-expand-lg fixed-top navbar-custom">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
-            <img className="logo" src={logo} alt="logo" />
+            <img className="logo" src={ModeLogo} alt="logo" />
           </a>
           <button
             class="navbar-toggler"

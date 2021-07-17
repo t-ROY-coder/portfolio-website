@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap");
 
 :root {
+  --dark-mode: "on";
   --bg-color: #282b30;
   --section-color: #36393e;
   --mute-color: #424549;
