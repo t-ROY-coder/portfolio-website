@@ -49,7 +49,7 @@ export const SkillsData = [
   },
   {
     icon: <ion-icon name="library-outline"></ion-icon>,
-    title: "dev-tools",
+    title: "libraries",
     list: [
       { name: "React", rating: 4.5 },
       { name: "Angular", rating: 3.5 },
