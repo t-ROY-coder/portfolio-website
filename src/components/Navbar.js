@@ -80,8 +80,16 @@ const Navbar = () => {
                   <ion-icon name="briefcase"></ion-icon>
                 </a>
               </li>
-              <li class="nav-item">
+              {/* <li class="nav-item">
                 <a class="nav-link" href="#contact">
+                  <ion-icon name="mail"></ion-icon>
+                </a>
+              </li> */}
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="mailto:roytanumon@gmail.com?subject=Mail from portfolio website"
+                >
                   <ion-icon name="mail"></ion-icon>
                 </a>
               </li>

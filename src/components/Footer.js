@@ -19,7 +19,7 @@ function Footer() {
             >
               <ion-icon name="logo-linkedin"></ion-icon>
             </a>
-            <a href="#contact">
+            <a href="mailto:roytanumon@gmail.com?subject=Mail from portfolio website">
               <ion-icon name="mail"></ion-icon>
             </a>
           </div>
