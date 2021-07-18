@@ -197,6 +197,12 @@ h6 {
 
 /***** HEADER *****/
 
+@media (max-width: 992px) {
+  .header {
+    text-align: center;
+  }
+}
+
 .header {
   margin-top: 7rem;
 }
